@@ -1,0 +1,51 @@
+<html>
+
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="kevin.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+<script type="text/javascript" src="kevin.css"> </script>
+</head>
+<style>
+    body{
+
+       background-image: url('pp.jpg');
+       background-repeat: no-repeat;
+       background-size: 100% 100%;
+       background-attachment: fixed;
+
+       } 
+     </style>
+ <center/>
+ 
+<p>  
+  <h1><font face="Harlow Solid Italic" color= "black">Preencha os dados para se matricular em Hogwarts  </font></h1>
+<form name= "form" method="post" action="" onsubmit="return validacao();">
+Nome: <input  type= "text" name= "nome"/> <br></br>
+Sobrenome: <input type="text" name="sobrenome"/> <br></br> 
+e-mail: <input type="text" name="email"/> <br></br> 
+Senha: <input type="password" name="senha"/> <br></br> 
+<label color="white"> Sexo </label><br> 
+<input type= "radio" name= "sexo"  value= "M" checked="checked" />Masculino</br>
+
+<input type= "radio" name= "sexo" value= "F" /> Feminino</br>
+
+<label color="white"> Linhagem </label><br> 
+<input type= "radio" name= "sexo"  value= "M" checked="checked" />Sangue Puro</br>
+
+<input type= "radio" name= "sexo" value= "F" /> Mestiço </br>
+
+<input type= "radio" name= "sexo" value= "F" /> Pais trouxas </br>
+
+<br color="red" > Filhos de pais trouxas ou mestiços terão os mesmos direitos que sangue puros, todos são bruxo idependente de sua linhagem </br> 
+
+<label> Perfil </label> <br/>
+<textarea name="perfil" placeholder="diga-nos um motivo bom para ser selecionado para hogwarts" position="fixed" rows="10" cols="50"></textarea><br/>
+<input type="submit" name= "enviar" value="salvar"/ >
+<button class="btn btn-green">Salvar</button>
+
+</p>
+</body>
+</html>

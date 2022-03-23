@@ -1,0 +1,25 @@
+p{
+  font-style: arial; color: white ; 16 px;
+ 
+}
+#fundo{
+  background-color: #14ff20;
+}
+.p{
+   font-style: arial; color: green; 16 px;
+}
+.p2{
+  font-style: arial; color: green; 16 px;
+}
+
+
+  
+    body{
+
+       background-image: url('naru.png');
+       background-repeat: repeat-y;
+       background-size: 100% 100%;
+	   
+
+       } 
+     </style>
